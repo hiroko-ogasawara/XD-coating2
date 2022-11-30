@@ -1,0 +1,99 @@
+$btn-color: linear-gradient(90deg, #FA41CC 0%, #6020B0 100%);
+$txt-color: #000000;
+
+/*base*/
+.contact-btn {
+    width: 155px;
+    height: 37px;
+    background: $btn-color;
+    color: #FFFFFF;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    line-height: 37px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    text-decoration-line: none;
+}
+
+/*header*/
+.header{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 94px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    &-inner {
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100px;
+        }
+    &-logo {
+        display: flex;
+        align-items: center;
+        img {
+            width: 55px;
+            height: 55px;
+        }
+    }
+    &-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 16px;
+    }
+    &-nav {
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            li {
+                text-align: center;
+                margin-right: 45px;
+            }
+            a {
+                text-decoration-line: none;
+                color: $txt-color;
+            }
+        }
+    }
+}
+
+.main {
+    background-image: url(../img/circle.png);
+    background-position: top -150px right -120px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+    &-inner{
+        max-width:  1024px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 100px 20px;
+    }
+    &-copy{
+        text-align: left;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 1.8;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+    &-img {
+        position: absolute;
+        right: 15%;
+        top: 20%;
+        z-index: 1000;
+    }
+}
