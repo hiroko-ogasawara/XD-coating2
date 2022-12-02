@@ -20,6 +20,7 @@
   z-index: 9999;
   width: 100%;
   height: 94px;
+  background-color: #FFFFFF;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 .header-inner {
@@ -93,5 +94,123 @@
   right: 15%;
   top: 20%;
   z-index: 1000;
+}
+
+.feature-title {
+  margin-top: 40px;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.feature-title span {
+  font-size: 16px;
+  color: #3BA6C9;
+  display: block;
+  margin-top: 20px;
+}
+.feature-inner {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.feature-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 64px;
+}
+.feature-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 93px;
+}
+.feature-box h3 {
+  font-size: 24px;
+  line-height: 1.8;
+  font-weight: bold;
+  margin-bottom: 54px;
+}
+.feature-box p {
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.price {
+  background-color: #EEFBFB;
+  padding: 64px 20px 128px;
+}
+.price-inner {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.price-title {
+  margin-top: 40px;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.price-title span {
+  font-size: 16px;
+  color: #3BA6C9;
+  display: block;
+  margin-top: 20px;
+}
+.price table {
+  width: 100%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+}
+.price table th {
+  width: 30px;
+  padding: 30px;
+  min-width: 300px;
+  border: 1px solid #f0eded;
+}
+.price table td {
+  width: 70px;
+  text-align: center;
+  padding: 30px;
+  border: 1px solid #f0eded;
+  font-weight: bold;
+}
+
+.contact {
+  background: transparent linear-gradient(90deg, #05A5FA 0%, #63FBD7 100%, #67FFD6 100%) 0% 0% no-repeat padding-box;
+  padding: 40px 20px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 58px;
+}
+.contact-title {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #FFFFFF;
+}
+.contact span {
+  font-size: 16px;
+  display: block;
+  margin-top: 20px;
+}
+.contact p {
+  margin-bottom: 44px;
+  line-height: 1.8;
+}
+.contact-btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+}
+footer small {
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

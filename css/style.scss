@@ -1,5 +1,8 @@
 $btn-color: linear-gradient(90deg, #FA41CC 0%, #6020B0 100%);
 $txt-color: #000000;
+$sub-ttl-color: #3BA6C9;
+$bg-color:#EEFBFB;
+$gradient: transparent linear-gradient(90deg, #05A5FA 0%, #63FBD7 100%, #67FFD6 100%) 0% 0% no-repeat padding-box;
 
 /*base*/
 .contact-btn {
@@ -22,6 +25,7 @@ $txt-color: #000000;
     z-index: 9999;
     width: 100%;
     height: 94px;
+    background-color: #FFFFFF;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16);
     &-inner {
         max-width: 1024px;
@@ -95,5 +99,126 @@ $txt-color: #000000;
         right: 15%;
         top: 20%;
         z-index: 1000;
+    }
+}
+.feature {
+    &-title {
+        margin-top: 40px;
+        font-size: 32px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 40px;
+        span {
+            font-size: 16px;
+            color: $sub-ttl-color;
+            display: block;
+            margin-top: 20px;
+        }
+    }
+    &-inner {
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &-heading {
+        text-align: center;
+        font-size:  28px;
+        font-weight: bold;
+        margin-bottom: 64px;
+    }
+
+    &-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 93px;
+        h3 {
+            font-size: 24px;
+            line-height: 1.8;
+            font-weight: bold;
+            margin-bottom: 54px;
+        }
+        p {
+            line-height: 1.5;
+            font-weight: bold;
+        }
+    }
+}
+
+.price {
+    background-color: $bg-color;
+    padding: 64px 20px 128px;
+    &-inner {
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &-title {
+        margin-top: 40px;
+        font-size: 32px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 40px;
+        span {
+            font-size: 16px;
+            color: $sub-ttl-color;
+            display: block;
+            margin-top: 20px;
+        }
+    }
+    table {
+        width: 100%;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+        background-color: #FFFFFF;
+        border-collapse: collapse;
+        th {
+            width: 30px;
+            padding: 30px;
+            min-width: 300px;
+            border:1px solid #f0eded;
+        }
+        td {
+            width: 70px;
+            text-align: center;
+            padding: 30px;
+            border:1px solid #f0eded;
+            font-weight: bold;
+        }
+    }
+}
+
+.contact {
+    background: $gradient;
+    padding: 40px 20px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 58px; 
+    &-title {
+        font-size: 32px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 40px;
+        color: #FFFFFF;
+        }
+    span{
+        font-size: 16px;
+        display: block;
+        margin-top: 20px;
+    }
+    p {
+        margin-bottom: 44px;
+        line-height: 1.8;
+    }
+    &-btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+footer {
+    text-align: center;
+    small {
+        font-weight: bold;
     }
 }
